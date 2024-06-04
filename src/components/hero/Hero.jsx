@@ -42,14 +42,14 @@ const Hero=()=>{
                         <motion.button className="btn" variants={textVariants}><a href="#Projects">See the Latest Works</a></motion.button>
                         <motion.button className="btn"variants={textVariants}><a href="#Contact" >Contact Me</a></motion.button>
                     </motion.div>
-                    <motion.img variants={textVariants} src="/arrow.png" alt="Scroll" animate="scrollAnimation"/>
+                    <motion.img variants={textVariants} src="./arrow.png" alt="Scroll" animate="scrollAnimation"/>
                 </motion.div>
             </div>
             <motion.div variants={sliderVariants} initial="initial" animate="animate" className="slidingTextContainer">
                 Developer Designer Content Creator Persistor Swaggy Hustler
             </motion.div>
             <div className="imageContainer">
-                <img src="/hero.png" alt="My Image" />
+                <img src="./hero.png" alt="My Image" />
             </div>
         </div>
     )
