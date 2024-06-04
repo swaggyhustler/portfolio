@@ -26,10 +26,10 @@ const Navbar=()=>{
                     SwaggyHustler
                 </motion.span>
                 <motion.div className="socials" initial="hidden" animate="visible" variants={variants}>
-                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://www.instagram.com/swaggyhustler/"><img src="/instagram.png" alt="instagram" /></motion.a>
-                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://www.linkedin.com/in/subhash-gedam/"><img src="/linkedin.png" alt="linkedin" /></motion.a>
-                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://github.com/swaggyhustler"><img src="/github.png" alt="discord" /></motion.a>
-                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://www.youtube.com/@subhashnaseer"><img src="/youtube.png" alt="youtube" /></motion.a>
+                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://www.instagram.com/swaggyhustler/"><img src="./instagram.png" alt="instagram" /></motion.a>
+                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://www.linkedin.com/in/subhash-gedam/"><img src="./linkedin.png" alt="linkedin" /></motion.a>
+                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://github.com/swaggyhustler"><img src="./github.png" alt="discord" /></motion.a>
+                        <motion.a variants={variants} whileHover={{scale: 1.1}} href="https://www.youtube.com/@subhashnaseer"><img src="./youtube.png" alt="youtube" /></motion.a>
                 </motion.div>
             </div>
         </div>
