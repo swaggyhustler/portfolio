@@ -18,9 +18,9 @@ const Technologies=()=>{
     return (
         <div className="technologies">
             <motion.div className="logos" style={{x: xBg}}>
-                <img id="logo1" src="/js_logo.png" alt="Javascript" />
-                <img id="logo2" src="/java_logo.png" alt="java" />
-                <img id="logo3" src="python_logo.png" alt="python" />
+                <img id="logo1" src="./js_logo.png" alt="Javascript" />
+                <img id="logo2" src="./java_logo.png" alt="java" />
+                <img id="logo3" src="./python_logo.png" alt="python" />
             </motion.div>
             <div className="title">
                 <motion.h1 className="title-content" initial="initial" whileInView="animate" viewport={{once:true}} variants={variant} >
@@ -30,9 +30,9 @@ const Technologies=()=>{
                 </motion.h1>
             </div>
             <motion.div className="logos" style={{x: xBgOpp}}>
-                <img id="logo4" src="react_logo.png" alt="react" />
-                <img id="logo5" src="/sql_logo.png" alt="sql" />
-                <img id="logo6" src="MERN_logo.png" alt="mern" />
+                <img id="logo4" src="./react_logo.png" alt="react" />
+                <img id="logo5" src="./sql_logo.png" alt="sql" />
+                <img id="logo6" src="./MERN_logo.png" alt="mern" />
             </motion.div>
         </div>
     );
