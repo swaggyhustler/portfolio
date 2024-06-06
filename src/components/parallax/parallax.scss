@@ -34,6 +34,20 @@
             left: -890px;
         }
     }
+    @include mini-desktop{
+        #arrow1{
+            left: -150px;
+        }
+        #arrow2{
+            left: -100px;
+        }
+        #arrow3{
+            left: -200px;
+        }
+        #arrow4{
+            left: -100px;
+        }
+    }
     .wrapper{
         position: absolute;
         width: 100%;
@@ -47,6 +61,9 @@
             font-size: 100px;
             @include mobile{
                 font-size: 40px;
+            }
+            @include mini-desktop{
+                font-size: 80px;
             }
         }
     }

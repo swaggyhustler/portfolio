@@ -8,7 +8,9 @@
         max-width: 1366px;
         height: 100%;
         margin: auto;
-
+        @include mini-desktop{
+            max-width: 1080px;
+        }
 
         .textContainer{
             position: absolute;
