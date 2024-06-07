@@ -59,11 +59,11 @@
         .text *{
             text-align: center;
             font-size: 100px;
-            @include mobile{
-                font-size: 40px;
-            }
             @include mini-desktop{
                 font-size: 80px;
+                @include mobile{
+                    font-size: 40px;
+                }
             }
         }
     }
