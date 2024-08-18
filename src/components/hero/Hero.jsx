@@ -39,7 +39,7 @@ const Hero=()=>{
                     <motion.h2 variants={textVariants}>GEDAM SUBHASH</motion.h2>
                     <motion.h1 variants={textVariants}>Developer and Tech Enthusiast</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.a className="btn" href="https://drive.google.com/file/d/1gRap3dIEFjZ6ZCNLczywveFcvxcGl6mb/view?usp=drive_link" variants={textVariants}>Check Resume</motion.a>
+                        <motion.a className="btn" href="https://drive.google.com/file/d/1AyHXezNt-sdzw0m0qalEDvl6HqcTrpRT/view?usp=sharing" variants={textVariants}>Check Resume</motion.a>
                         <motion.a className="btn" href="#Contact" variants={textVariants}>Contact Me</motion.a>
                     </motion.div>
                     <motion.img variants={textVariants} src="./arrow.png" alt="Scroll" animate="scrollAnimation"/>
